@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+Why tailwind reset is not working
+*/
+body {
+	margin: 0;
+	line-height: 1.5;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+		sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	min-height: 100vh;
+}
+
+h1,
+h3,
+p {
+	margin: 0;
+}
+
+img {
+	object-fit: contain;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.floated {
+	left: -12px;
+	top: 30px;
+}
+
+.cover-screen {
+	min-height: 100vh;
+	min-width: 100vw;
+}
