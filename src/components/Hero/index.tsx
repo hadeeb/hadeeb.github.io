@@ -1,6 +1,6 @@
 import { h } from "preact";
 
-import { github, twitter } from "../../style/icons";
+import { github, linkedin, twitter } from "../../style/icons";
 
 function Hero() {
 	return (
@@ -41,6 +41,14 @@ function Hero() {
 						className="mr-8"
 					>
 						{twitter}
+					</a>
+					<a
+						target="_blank"
+						rel="noreferrer noopener"
+						href="https://www.linkedin.com/in/farhan23"
+						className="mr-8"
+					>
+						{linkedin}
 					</a>
 				</div>
 			</div>
