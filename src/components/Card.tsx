@@ -48,7 +48,7 @@ function MoreCard() {
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			More
+			See More
 		</a>
 	);
 }

@@ -1,10 +1,8 @@
 import { h } from "preact";
 
-import { simpleIcons } from "../style/icons";
-
 function Footer() {
 	return (
-		<footer className="bg-black p-24 text-gray-dark">
+		<footer className="bg-black p-24 text-gray-mid">
 			<div>
 				Hosted on{" "}
 				<a

@@ -1,4 +1,4 @@
-import { Fragment, h } from "preact";
+import { h } from "preact";
 
 import { Footer } from "./Footer";
 import { Header } from "./Header";

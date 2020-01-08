@@ -26,6 +26,7 @@ function Hero() {
 				</p>
 				<div className="flex">
 					<a
+						aria-label="Github"
 						target="_blank"
 						rel="noreferrer noopener"
 						href="https://github.com/hadeeb"
@@ -35,6 +36,7 @@ function Hero() {
 						{/* <span>github.com/hadeeb</span> */}
 					</a>
 					<a
+						aria-label="Twitter"
 						target="_blank"
 						rel="noreferrer noopener"
 						href="https://twitter.com/HadeebFarhan"
@@ -43,6 +45,7 @@ function Hero() {
 						{twitter}
 					</a>
 					<a
+						aria-label="LinkedIn"
 						target="_blank"
 						rel="noreferrer noopener"
 						href="https://www.linkedin.com/in/farhan23"
