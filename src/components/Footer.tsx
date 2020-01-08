@@ -2,7 +2,7 @@ import { h } from "preact";
 
 function Footer() {
 	return (
-		<footer className="bg-black p-24 text-gray-mid">
+		<footer className="p-24 bg-black text-gray-mid">
 			<div>
 				Hosted on{" "}
 				<a

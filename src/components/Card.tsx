@@ -7,8 +7,8 @@ type IRepo = {
 
 function Card({ repo }: { repo: IRepo }) {
 	return (
-		<div className="flex-1 w-1/2 p-16 mr-8 rounded border-solid border-1 border-gray-light">
-			<div className="text-blue font-semibold flex items-center">
+		<div className="flex-1 p-16 mb-8 border-solid rounded sm:w-1/2 sm:mb-0 sm:mr-8 border-1 border-gray-light">
+			<div className="flex items-center font-semibold text-blue">
 				{icon}
 				<a
 					href={repo.link}
@@ -19,7 +19,7 @@ function Card({ repo }: { repo: IRepo }) {
 					{repo.name}
 				</a>
 			</div>
-			<p className="text-14 text-gray-dark my-8">{repo.desc}</p>
+			<p className="my-8 text-14 text-gray-dark">{repo.desc}</p>
 		</div>
 	);
 }
@@ -43,7 +43,7 @@ const icon = (
 function MoreCard() {
 	return (
 		<a
-			className="py-16 px-24 rounded border-solid border-1 border-gray-light text-black flex justify-center items-center font-bold"
+			className="flex items-center justify-center px-24 py-16 font-bold text-black border-solid rounded border-1 border-gray-light"
 			href="https://github.com/hadeeb?tab=repositories"
 			target="_blank"
 			rel="noopener noreferrer"

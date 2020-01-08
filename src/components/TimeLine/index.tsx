@@ -32,7 +32,7 @@ const timeLine = [
 function TimeLine() {
 	return (
 		<Fragment>
-			<h3 className="ml-16 mb-8 font-medium">Professional Experience</h3>
+			<h3 className="mb-8 ml-16 font-medium">Professional Experience</h3>
 			<div className="text-gray-dark">
 				{timeLine.map(data => (
 					<TimeLineItem key={data.company} data={data} />
@@ -44,8 +44,8 @@ function TimeLine() {
 
 function TimeLineItem({ data }: { data: typeof timeLine[0] }) {
 	return (
-		<div className="relative ml-16 p-24 border-b-1 border-l-1 border-solid border-gray-light border-0">
-			<div className="w-24 h-24 rounded-full bg-gray-mid absolute floated">
+		<div className="relative p-24 ml-16 border-0 border-solid border-b-1 border-l-1 border-gray-light">
+			<div className="absolute w-24 h-24 rounded-full bg-gray-mid floated">
 				<svg className="m-4" viewBox="0 0 16 16" aria-hidden="true">
 					<path
 						fillRule="evenodd"

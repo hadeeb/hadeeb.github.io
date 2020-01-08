@@ -10,7 +10,7 @@ const Repos = [
 	},
 	{
 		name: "@hadeeb/reactive",
-		link: "https://github.com/hadeeb/reactive",
+		link: "https://hadeeb.github.io/reactive",
 		desc: "Reactive global state for React Apps with ES6 Proxies"
 	}
 ];
@@ -18,8 +18,8 @@ const Repos = [
 function OSS() {
 	return (
 		<div className="sm:pl-8 sm:w-3/4">
-			<h3 className="ml-16 mb-8 font-medium">OSS Projects</h3>
-			<div className="flex flex-wrap ml-16 mb-16 justify-between">
+			<h3 className="mb-8 font-medium sm:ml-16">OSS Projects</h3>
+			<div className="flex flex-col flex-wrap justify-between mb-16 sm:flex-row sm:ml-16">
 				{Repos.map(repo => (
 					<Card key={repo.name} repo={repo} />
 				))}

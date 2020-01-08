@@ -9,11 +9,11 @@ function App() {
 	return (
 		<div className="flex flex-col cover-screen">
 			<Header />
-			<div className="flex-1 flex flex-col sm:flex-row p-16 text-black">
+			<div className="flex flex-col flex-1 p-16 text-black sm:flex-row">
 				<Hero />
 				<OSS />
 			</div>
-			<div className="text-gray-dark justify-center flex border-dashed p-24 m-16 border-gray-light rounded">
+			<div className="flex justify-center p-24 m-16 border-dashed rounded text-gray-dark border-gray-light">
 				TODO:
 				<a
 					className="text-gray-dark"
