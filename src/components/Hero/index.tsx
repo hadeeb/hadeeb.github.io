@@ -6,7 +6,7 @@ function Hero() {
 	return (
 		<div className="pb-24 pr-16 sm:w-1/4">
 			<img
-				className="rounded border-gray-light border-1"
+				className="w-1/2 rounded border-gray-light border-1 sm:w-auto"
 				src="https://avatars1.githubusercontent.com/u/16823042?s=460&v=4"
 				alt="avatar"
 			/>
