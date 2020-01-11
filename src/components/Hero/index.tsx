@@ -14,16 +14,7 @@ function Hero() {
 				<h1 className="font-semibold text-black text-26">
 					Hadeeb Farhan
 				</h1>
-				<p className="mb-8">
-					Frontend Developer @{" "}
-					{/* <a
-						target="_blank"
-						rel="noreferrer noopener"
-						href="https://paytm.com/hotels"
-					> */}
-					Paytm
-					{/* </a> */}
-				</p>
+				<p className="mb-8">Frontend Developer @ Paytm</p>
 				<div className="flex">
 					<a
 						aria-label="Github"

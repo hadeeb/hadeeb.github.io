@@ -26,7 +26,7 @@ function Card({ repo }: { repo: IRepo }) {
 
 const icon = (
 	<svg
-		className="mr-4"
+		className="mt-4 mr-4"
 		viewBox="0 0 12 16"
 		version="1.1"
 		width="12"
